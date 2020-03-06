@@ -1,7 +1,7 @@
 'use strict';
 
-import * as BigInteger from 'jsproover-mixbytes/prover/bigInteger/bigInteger';
-import { ECCurve } from 'jsproover-mixbytes/prover/curve/curve';
+const { BigInteger } = require('./jsproover-mixbytes/prover/bigInteger/bigInteger');
+const { ECCurve } = require('./jsproover-mixbytes/prover/curve/curve');
 
 const secureRandom = require("secure-random");
 const BN = require("bn.js");
